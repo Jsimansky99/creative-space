@@ -33,7 +33,8 @@ header{
 }
 
 .logo img{
-    width: 60px;
+    padding-top: 30px;
+    width: 40px;
 
 }
 
@@ -73,6 +74,9 @@ header{
 .menu #btn_menu{
     display: none;
 }
+
+
+
 
 
 /*COVER*/
@@ -307,10 +311,16 @@ header .textos-header{
     padding: 60px 0px;
     
 }
+
+.sobre-nosotros{
+    background: #f2f2f2;
+}
+
 .contenedor-sobre-nosotros{
     display: flex;
     justify-content: space-evenly;
     padding: 0px 80px 80px 80px;
+    border-bottom: 10px #f15353;
 }
 
 .imagen-about-us{
@@ -445,7 +455,7 @@ header .textos-header{
 /*  Our team */
 
 .about-services{
-    background: #f2f2f2;
+    background: #fff;
     padding: 80px 80px;
 }
 
